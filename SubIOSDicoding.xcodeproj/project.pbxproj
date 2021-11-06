@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E073B676267A065200CBBC32 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E073B674267A065200CBBC32 /* DetailViewController.swift */; };
+		E073B677267A065200CBBC32 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E073B675267A065200CBBC32 /* DetailViewController.xib */; };
 		E0CE59572679D77B00C1E57F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CE59562679D77B00C1E57F /* AppDelegate.swift */; };
 		E0CE59592679D77B00C1E57F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CE59582679D77B00C1E57F /* SceneDelegate.swift */; };
 		E0CE595B2679D77B00C1E57F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CE595A2679D77B00C1E57F /* ViewController.swift */; };
@@ -16,6 +18,11 @@
 		E0CE59662679D77B00C1E57F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0CE59642679D77B00C1E57F /* LaunchScreen.storyboard */; };
 		E0CE59712679D77C00C1E57F /* SubIOSDicodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CE59702679D77C00C1E57F /* SubIOSDicodingTests.swift */; };
 		E0CE597C2679D77C00C1E57F /* SubIOSDicodingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CE597B2679D77C00C1E57F /* SubIOSDicodingUITests.swift */; };
+		E0CE59A32679D84B00C1E57F /* Wisata.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CE59A22679D84B00C1E57F /* Wisata.swift */; };
+		E0CE59A82679D88000C1E57F /* DummyWisata.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CE59A72679D88000C1E57F /* DummyWisata.swift */; };
+		E0CE59B12679DA0900C1E57F /* WisataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CE59AF2679DA0900C1E57F /* WisataTableViewCell.swift */; };
+		E0CE59B22679DA0900C1E57F /* WisataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0CE59B02679DA0900C1E57F /* WisataTableViewCell.xib */; };
+		E0CE59BA2679EB1C00C1E57F /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CE59B92679EB1C00C1E57F /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E073B674267A065200CBBC32 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E073B675267A065200CBBC32 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		E0CE59532679D77B00C1E57F /* SubIOSDicoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SubIOSDicoding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0CE59562679D77B00C1E57F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0CE59582679D77B00C1E57F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +60,11 @@
 		E0CE59772679D77C00C1E57F /* SubIOSDicodingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubIOSDicodingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0CE597B2679D77C00C1E57F /* SubIOSDicodingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubIOSDicodingUITests.swift; sourceTree = "<group>"; };
 		E0CE597D2679D77C00C1E57F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0CE59A22679D84B00C1E57F /* Wisata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wisata.swift; sourceTree = "<group>"; };
+		E0CE59A72679D88000C1E57F /* DummyWisata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyWisata.swift; sourceTree = "<group>"; };
+		E0CE59AF2679DA0900C1E57F /* WisataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WisataTableViewCell.swift; sourceTree = "<group>"; };
+		E0CE59B02679DA0900C1E57F /* WisataTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WisataTableViewCell.xib; sourceTree = "<group>"; };
+		E0CE59B92679EB1C00C1E57F /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +95,9 @@
 		E0CE594A2679D77B00C1E57F = {
 			isa = PBXGroup;
 			children = (
+				E0CE598E2679D7D700C1E57F /* Model */,
+				E0CE598D2679D7BD00C1E57F /* Controller */,
+				E0CE598C2679D7B500C1E57F /* View */,
 				E0CE59552679D77B00C1E57F /* SubIOSDicoding */,
 				E0CE596F2679D77C00C1E57F /* SubIOSDicodingTests */,
 				E0CE597A2679D77C00C1E57F /* SubIOSDicodingUITests */,
@@ -103,10 +120,7 @@
 			children = (
 				E0CE59562679D77B00C1E57F /* AppDelegate.swift */,
 				E0CE59582679D77B00C1E57F /* SceneDelegate.swift */,
-				E0CE595A2679D77B00C1E57F /* ViewController.swift */,
-				E0CE595C2679D77B00C1E57F /* Main.storyboard */,
 				E0CE59622679D77B00C1E57F /* Assets.xcassets */,
-				E0CE59642679D77B00C1E57F /* LaunchScreen.storyboard */,
 				E0CE59672679D77B00C1E57F /* Info.plist */,
 				E0CE595F2679D77B00C1E57F /* SubIOSDicoding.xcdatamodeld */,
 			);
@@ -129,6 +143,37 @@
 				E0CE597D2679D77C00C1E57F /* Info.plist */,
 			);
 			path = SubIOSDicodingUITests;
+			sourceTree = "<group>";
+		};
+		E0CE598C2679D7B500C1E57F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E0CE59B02679DA0900C1E57F /* WisataTableViewCell.xib */,
+				E073B675267A065200CBBC32 /* DetailViewController.xib */,
+				E0CE59642679D77B00C1E57F /* LaunchScreen.storyboard */,
+				E0CE595C2679D77B00C1E57F /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E0CE598D2679D7BD00C1E57F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E0CE595A2679D77B00C1E57F /* ViewController.swift */,
+				E0CE59B92679EB1C00C1E57F /* AboutViewController.swift */,
+				E073B674267A065200CBBC32 /* DetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E0CE598E2679D7D700C1E57F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E0CE59A22679D84B00C1E57F /* Wisata.swift */,
+				E0CE59AF2679DA0900C1E57F /* WisataTableViewCell.swift */,
+				E0CE59A72679D88000C1E57F /* DummyWisata.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +279,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0CE59B22679DA0900C1E57F /* WisataTableViewCell.xib in Resources */,
 				E0CE59662679D77B00C1E57F /* LaunchScreen.storyboard in Resources */,
+				E073B677267A065200CBBC32 /* DetailViewController.xib in Resources */,
 				E0CE59632679D77B00C1E57F /* Assets.xcassets in Resources */,
 				E0CE595E2679D77B00C1E57F /* Main.storyboard in Resources */,
 			);
@@ -261,9 +308,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E073B676267A065200CBBC32 /* DetailViewController.swift in Sources */,
 				E0CE595B2679D77B00C1E57F /* ViewController.swift in Sources */,
+				E0CE59A82679D88000C1E57F /* DummyWisata.swift in Sources */,
+				E0CE59B12679DA0900C1E57F /* WisataTableViewCell.swift in Sources */,
 				E0CE59612679D77B00C1E57F /* SubIOSDicoding.xcdatamodeld in Sources */,
 				E0CE59572679D77B00C1E57F /* AppDelegate.swift in Sources */,
+				E0CE59A32679D84B00C1E57F /* Wisata.swift in Sources */,
+				E0CE59BA2679EB1C00C1E57F /* AboutViewController.swift in Sources */,
 				E0CE59592679D77B00C1E57F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
